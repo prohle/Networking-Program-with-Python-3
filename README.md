@@ -1,5 +1,5 @@
 # Networking Program with Python 3
-## An Essential Concept To Code Handbook
+### An Essential Concept To Code Handbook
 <img align="left" style="padding-right:10px;" height="80px" aria-hidden="true" src="https://prohle.github.io/Networking-Program-with-Python-3/_static/logo.png">*This notebook contains an excerpt from the [Networking Program with Python 3](https://prohle.github.io/Networking-Program-with-Python-3/intro.html) by [Huong Yen Le](mailto:prohle@gmail.com); the content is available [on GitHub](https://github.com/prohle/Networking-Program-with-Python-3).*
 
 *The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clhttps://opensource.org/lcenses/BSD-3-Clause). If you find this content useful, please consider supporting the work by [pre-ordering the book](mailto:prohle@gmail.com?subject=Please%20reply%20to%20me%20with%20my%20access%20to%20Networking%20Program%20with%20Python%203%20or%20its%20work-in-progress%20version&body=I%20have%20sent%20my%20payment%20of%2019.95%20to%20your%20email%20address.%20Thank%20you.).*

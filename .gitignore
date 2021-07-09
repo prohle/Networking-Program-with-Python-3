@@ -132,5 +132,5 @@ dmypy.json
 _build/
 
 
-# 3rd party
-extract_attachments.py
+# direct python file
+*.py
