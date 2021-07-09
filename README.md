@@ -1,4 +1,4 @@
-# Networking Program with Python-3
+# Networking Program with Python 3
 ## An Essential Concept To Code Handbook
 <img align="left" style="padding-right:10px;" height="80px" aria-hidden="true" src="https://prohle.github.io/Networking-Program-with-Python-3/_static/logo.png">*This notebook contains an excerpt from the [Networking Program with Python 3](https://prohle.github.io/Networking-Program-with-Python-3/intro.html) by [Huong Yen Le](mailto:prohle@gmail.com); the content is available [on GitHub](https://github.com/prohle/Networking-Program-with-Python-3).*
 
