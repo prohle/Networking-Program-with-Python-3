@@ -215,19 +215,14 @@
                 
   <div class="section" id="internet-protocol">
 <h1>Internet Protocol<a class="headerlink" href="#internet-protocol" title="Permalink to this headline">¶</a></h1>
-<img align="left" style="padding-right:10px;" width="80px;" width="80px" src="../_static/logo.png" alt="Networking Program with Python 3">
-<p><em>This notebook contains an excerpt from the <a class="reference external" href="https://prohle.github.io/Networking-Program-with-Python-3/intro.html">Networking Program with Python 3</a> by Huong Yen Le; the content is available <a class="reference external" href="https://github.com/prohle/Networking-Program-with-Python-3">on GitHub</a>.</em></p>
-<p><em>The text is released under the <a class="reference external" href="https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode">CC-BY-NC-ND license</a>, and code is released under the <a class="reference external" href="https://opensource.org/licenses/BSD-3-Clhttps://opensource.org/lcenses/BSD-3-Clause">BSD 3-Clause license</a>. If you find this content useful, please consider supporting the work by <span class="xref myst">buying the book</span>. Please note: The book is being written at the moment and your access to it or its in-progress version will be emailed to you within 24 hours.</em></p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span><span class="p">,</span> <span class="n">cycler</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
+<img align="left" style="padding-right:10px;" height="80px" src="https://prohle.github.io/Networking-Program-with-Python-3/_static/logo.png">
+*This notebook contains an excerpt from the [Networking Program with Python 3](https://prohle.github.io/Networking-Program-with-Python-3/intro.html) by Huong Yen Le; the content is available [on GitHub](https://github.com/prohle/Networking-Program-with-Python-3).*
+<p><em>The text is released under the <a class="reference external" href="https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode">CC-BY-NC-ND license</a>, and code is released under the <a class="reference external" href="https://opensource.org/licenses/BSD-3-Clhttps://opensource.org/lcenses/BSD-3-Clause">BSD 3-Clause license</a>. If you find this content useful, please consider supporting the work by <a class="reference external" href="mailto:prohle&#37;&#52;&#48;gmail&#46;com?subject=Please%20reply%20to%20me%20with%20my%20access%20to%20Networking%20Program%20with%20Python%203%20or%20its%20work-in-progress%20version&amp;body=I%20have%20sent%20my%20payment%20of%2019&#46;95%20to%20your%20email%20address&#46;%20Thank%20you&#46;">buying the book</a></em></p>
+<p>A note to make the most out of this work.</p>
+<ul class="simple">
+<li><p>Select the launch icon on the top bar to interact with the code via Google Colab or Binder (Preferred but with longer wait time). Nothing beats interactivity!</p></li>
+<li><p>Order of execution is important</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fixing random state for reproducibility</span>
@@ -252,7 +247,18 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/ip_2_0.png" src="../_images/ip_2_0.png" />
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">aaee2cc66c69</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Fixing random state for reproducibility</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">N</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">)]</span>
+
+<span class="ne">NameError</span>: name &#39;np&#39; is not defined
+</pre></div>
+</div>
 </div>
 </div>
 <p>There is a lot more that you can do with outputs (such as including interactive outputs)
