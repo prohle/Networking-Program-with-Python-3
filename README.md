@@ -1,2 +1,4 @@
 # Networking-Program-with-Python-3
-This is the Jupyter notebook version of the Networking Program with Python 3 - An Essential Concept-to-code Handbook by Huong Yen Le; the content of the code base is available on GitHub.* The code is released under the BSD 3-Clause license. If you find this content useful, please consider supporting the work by buying the book!
+*This notebook contains an excerpt from the [Networking Program with Python 3](https://prohle.github.io/Networking-Program-with-Python-3/intro.html) by Huong Yen Le; the content is available [on GitHub](https://github.com/prohle/Networking-Program-with-Python-3).*
+
+*The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clhttps://opensource.org/lcenses/BSD-3-Clause). If you find this content useful, please consider supporting the work by [buying the book](Please-pay-$15.99-to-prohle@gmail.com). Please note: The book is being written at the moment and your access to it or its working version will be emailed to you within 24 hours.
