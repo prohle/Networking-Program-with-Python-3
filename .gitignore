@@ -132,5 +132,5 @@ dmypy.json
 _build/
 
 
-# trash
-trash/
+# 3rd party
+extract_attachments.py

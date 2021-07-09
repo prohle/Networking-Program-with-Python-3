@@ -1,8 +1,14 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
+# Networking-Program-with-Python-3
+# This is the Jupyter notebook version of the Networking Program with Python 3
+# An Essential Concept To Code Handbook by Huong Yen Le; 
+# the content of the code base is available on GitHub.* The code is released under the BSD 3-Clause license. 
+# If you find this content useful, please consider supporting the work by buying the book!
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: t2
+parts:
+  - caption: Part 1
+    chapters:
+    - file: InternetProtocol/ip
+
