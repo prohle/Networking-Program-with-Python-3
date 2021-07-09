@@ -130,3 +130,7 @@ dmypy.json
 
 # _build
 _build/
+
+
+# trash
+trash/
